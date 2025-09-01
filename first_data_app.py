@@ -4,13 +4,11 @@ import re
 import streamlit as st
 
 ##Define Current Directory
-'''
-current_dir = os.path.dirname(os.path.abspath(__file__))
+#current_dir = os.path.dirname(os.path.abspath(__file__))
 
-def get_dataset_path():
-    csv_path = os.path.join(current_dir,"Data","customer_reviews.csv")
-    return csv_path
-'''
+#def get_dataset_path():
+    #csv_path = os.path.join(current_dir,"Data","customer_reviews.csv")
+    #return csv_path
 
 # Helper function to clean text
 def clean_text(text):
